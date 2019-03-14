@@ -1,4 +1,6 @@
-# fp.js (functional programming)
+# fp.js (functional programming) 
+[![Build Status](https://travis-ci.org/Pietroiu/fp.svg?branch=master)](https://travis-ci.org/Pietroiu/fp)
+
 Simple functional programing library ( just 13.7kb ). Library contains multiple pure functions to help you make the code more easy to manage. All methods are curried and they use a function first, value last approach.
 ### Usage
 To use it in the browser just add a script tag with the path to ./src/index.js.

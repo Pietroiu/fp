@@ -1,0 +1,1 @@
+export let isNumber = x => !isNaN(x);

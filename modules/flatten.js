@@ -1,0 +1,1 @@
+export let flatten = a => Array.concat.apply([], a);

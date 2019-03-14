@@ -1,0 +1,1 @@
+export let isPrimitive = (a)=>(a!==Object(a));

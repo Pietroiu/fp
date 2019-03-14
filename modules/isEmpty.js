@@ -1,0 +1,1 @@
+export let isEmpty = x => Object.keys(x).length === 0;

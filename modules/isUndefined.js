@@ -1,0 +1,1 @@
+export let isUndefined = x => x === undefined;

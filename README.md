@@ -1,5 +1,5 @@
 # fp.js (functional programming) 
-[![Build Status](https://travis-ci.org/Pietroiu/fp.svg?branch=master)](https://travis-ci.org/Pietroiu/fp) [![License: MIT](https://img.shields.io/github/license/Pietroiu/fp.svg)](https://opensource.org/licenses/MIT) ![GitHub file size in bytes](https://img.shields.io/github/size/pietroiu/fp/src/index.js.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/pietroiu/fp.svg)
+[![Build Status](https://travis-ci.org/Pietroiu/fp.svg?branch=master)](https://travis-ci.org/Pietroiu/fp) ![GitHub file size in bytes](https://img.shields.io/github/size/pietroiu/fp/src/index.js.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/pietroiu/fp.svg) ![GitHub top language](https://img.shields.io/github/languages/top/pietroiu/fp.svg) [![License: MIT](https://img.shields.io/github/license/Pietroiu/fp.svg)](https://opensource.org/licenses/MIT)
 
 Simple functional programing library ( just 13.7kb ). Library contains multiple pure functions to help you make the code more easy to manage. All methods are curried and they use a function first, value last approach.
 ### Usage

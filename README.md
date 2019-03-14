@@ -1,5 +1,5 @@
 # fp.js (functional programming) 
-[![Build Status](https://travis-ci.org/Pietroiu/fp.svg?branch=master)](https://travis-ci.org/Pietroiu/fp)
+[![Build Status](https://travis-ci.org/Pietroiu/fp.svg?branch=master)](https://travis-ci.org/Pietroiu/fp) [![License: MIT](https://img.shields.io/github/license/Pietroiu/fp.svg)](https://opensource.org/licenses/MIT)
 
 Simple functional programing library ( just 13.7kb ). Library contains multiple pure functions to help you make the code more easy to manage. All methods are curried and they use a function first, value last approach.
 ### Usage
@@ -31,4 +31,9 @@ npm run lint
 Make sure you have all the npm modules installed. The tests use [Jest](https://jestjs.io/) and you only need to run this command:
 ```
 npm run test
+```
+### Start http-server
+The [http-server](https://www.npmjs.com/package/http-server) can be started using the npm command bellow. You can use the library on the test server page using "fp.\<function name\>"
+```
+npm run start
 ```

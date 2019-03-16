@@ -20,7 +20,7 @@
     "eslint": "^5.15.1",
     "jest": "^24.5.0",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
     "npm": "^6.9.0"

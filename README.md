@@ -33,7 +33,7 @@ Make sure you have all the npm modules installed. The tests use [Jest](https://j
 npm run test
 ```
 ### Start http-server
-The [http-server](https://www.npmjs.com/package/http-server) can be started using the npm command bellow. You can use the library on the test server page using "fp.\<function name\>"
+The [http-server](https://www.npmjs.com/package/http-server) can be started using the npm command bellow. You can use the library in the browser on the test server page using "fp" key from window object.
 ```
 npm run start
 ```

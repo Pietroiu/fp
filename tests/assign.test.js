@@ -7,8 +7,8 @@ test("deep object assign",()=>{
 	expect(assign(a,b)).toEqual(c);
 });
 
-test("should throw TypeError",()=>{
+test("should return b",()=>{
 	let a = [3,4,5];
 	let b = [0,0];
-	expect(()=>assign(a,b)).toThrow(TypeError);
+	expect(assign(a,b)).toEqual(b);
 });

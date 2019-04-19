@@ -23,6 +23,6 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
-    "npm": "^6.9.0"
+   
   }
 }

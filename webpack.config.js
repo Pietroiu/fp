@@ -4,7 +4,7 @@ let limit    	= new webpack.optimize.LimitChunkCountPlugin({maxChunks: 1});
 
 module.exports = {
 	mode: "production",
-	entry: "./index.js",
+	entry: "./build.js",
 	output: {
 		path:path.resolve('./src'),
 		filename: "index.js"

@@ -1,1 +1,1 @@
-export let flatten = a => Array.concat.apply([], a);
+export let flatten = a => (new Array).concat.apply([], a);

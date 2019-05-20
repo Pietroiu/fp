@@ -1,1 +1,1 @@
-export let isObject = (x)=>Object.prototype.toString.call(x) === '[object Object]';
+export let isObject = (x)=>(x && typeof x === 'object' && x.constructor === Object);

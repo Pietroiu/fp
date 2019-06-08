@@ -12,13 +12,13 @@
   "author": "Alexandru Pietroiu",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.4.4",
+    "@babel/core": "^7.4.5",
     "@babel/plugin-transform-modules-commonjs": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
     "eslint": "^5.16.0",
     "jest": "^24.8.0",
-    "webpack": "^4.31.0",
+    "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2"
   },
   "dependencies": {}

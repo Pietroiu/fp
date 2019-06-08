@@ -1,1 +1,5 @@
-export let flatten = a => (new Array).concat.apply([], a);
+import {curry} from "./curry";
+
+export let flatten = curry(function(a,i){
+	return a.flat(i||1);
+});

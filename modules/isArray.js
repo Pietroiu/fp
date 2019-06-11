@@ -1,1 +1,1 @@
-export let isArray = (x)=>Object.prototype.toString.call(x) === '[object Array]';
+export let isArray = (a)=>Array.isArray(a);

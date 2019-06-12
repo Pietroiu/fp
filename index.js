@@ -30,6 +30,7 @@ export * from './modules/removeAtIndex';
 export * from './modules/reverse';
 export * from './modules/set';
 export * from './modules/slice';
+export * from './modules/split';
 export * from './modules/sort';
 export * from './modules/swap';
 export * from './modules/trim';

@@ -1,0 +1,1 @@
+export let trim = (s)=>s.trim();

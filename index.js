@@ -32,4 +32,5 @@ export * from './modules/set';
 export * from './modules/slice';
 export * from './modules/sort';
 export * from './modules/swap';
+export * from './modules/trim';
 export * from './modules/uniq';

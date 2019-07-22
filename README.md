@@ -8,9 +8,9 @@ To use it in the browser just add a script tag with the path to ./src/index.js.
 <script type="application/javascript" src="/src/index.js"></script>
 ```
 ### Webpack / Imports
-To use this with webpack / imports just include the modules you need from ./modules.
+To use this with webpack / imports just include the modules you need from 'fp'.
 ```javascript
-import {compose} from './modules/compose';
+import {get,map,compose,reduce} from 'fp';
 ```
 ### Install
 Install all the npm modules required for the build.

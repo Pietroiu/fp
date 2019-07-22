@@ -27,7 +27,7 @@ The project uses [ESLint](https://eslint.org/) to check the build transpiled fil
 ```
 npm run lint
 ```
-## Running the tests
+## Running tests
 Make sure you have all the npm modules installed. The tests use [Jest](https://jestjs.io/) and you only need to run this command:
 ```
 npm run test

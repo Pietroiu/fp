@@ -5,7 +5,7 @@ Simple functional programing library. Library contains multiple pure functions t
 ### Usage
 To use it in the browser just add a script tag with the path to ./src/index.js.
 ```html
-<script type="application/javascript" src="/src/index.js"></script>
+<script type="application/javascript" src="/node_modules/fp/src/index.js"></script>
 ```
 ### Webpack / Imports
 To use this with webpack / imports just include the modules you need from 'fp'.

@@ -1,12 +1,8 @@
-export let memoize = function (f) {
-	let c = {};
-	let s = Array.prototype.slice;
-	return function () {
-		let a = s.call(arguments);
-		if (a in c) {
-			return c[a];
-		} else {
-			return (c[a] = f.apply(this,a));
-		}
+export let memoize = function (fn) {
+	let cache = {};
+	return (...args) => {
+		let stringifiedArgs = JSON.stringify(args);
+		let result = cache[stringifiedArgs] = cache[stringifiedArgs] || fn(...args);
+		return result;
 	};
 };

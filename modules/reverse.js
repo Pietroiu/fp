@@ -1,1 +1,1 @@
-export let reverse = (a)=>a.reverse();
+export let reverse = (a)=>a.slice().reverse();

@@ -4,6 +4,6 @@ import {get} from "./get";
 
 export let pick = curry(function(p,o){
 	return p.reduce(function(acc,s){
-		return set(p,acc,get(s,o));
+		return set(s,acc,get(s,o));
 	},{});
 });

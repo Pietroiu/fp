@@ -23,6 +23,7 @@ export * from './modules/join';
 export * from './modules/map';
 export * from './modules/memoize';
 export * from './modules/not';
+export * from './modules/omit';
 export * from './modules/pick';
 export * from './modules/push'
 export * from './modules/reduce';

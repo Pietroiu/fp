@@ -1,1 +1,0 @@
-export let intersects = (a,b)=>a.filter(v=>a.includes(v));

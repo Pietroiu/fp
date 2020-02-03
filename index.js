@@ -13,7 +13,7 @@ export * from './modules/get';
 export * from './modules/getMap';
 export * from './modules/group';
 export * from './modules/includes';
-export * from './modules/intersects';
+export * from './modules/intersection';
 export * from './modules/isArray';
 export * from './modules/isEmpty';
 export * from './modules/isNumber';

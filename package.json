@@ -20,6 +20,6 @@
     "http-server": "^0.11.1",
     "jest": "^24.9.0",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.11"
   }
 }

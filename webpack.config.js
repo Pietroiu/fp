@@ -1,26 +1,26 @@
-let path 		 	= require('path');
+let path 		= require('path');
 let webpack 	= require('webpack');
 let limit    	= new webpack.optimize.LimitChunkCountPlugin({maxChunks: 1});
 
 module.exports = {
 	mode: "production",
-	entry: "./build.js",
+	entry: "./entry.js",
 	output: {
-		path:path.resolve('./src'),
-		filename: "index.js"
+		path:path.resolve('./'),
+		filename: "index.js",
+		libraryTarget: 'umd'
 	},
 	resolve: {extensions:[".js"]},
 	plugins: [limit],
 	cache:false,
 	module: {
 		rules: [{
-				test: /\.m?js$/,
-				exclude: /(node_modules)/,
-				use: {
-					loader: 'babel-loader'
-				}
+			test: /\.m?js$/,
+			exclude: /(node_modules)/,
+			use: {
+				loader: 'babel-loader'
+			}
 		}]
 	},
-	devtool:'source-map',
 	watch:false
 };

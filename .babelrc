@@ -1,5 +1,17 @@
 {
-  "presets" :[["@babel/env", {"modules": false}]],
+  "presets" :[["@babel/preset-env", {
+    "useBuiltIns": "usage",
+    "targets": {
+      "browsers":[
+        "last 5 versions",
+        "ie >= 9"
+      ],
+      "node": "current"
+    },
+    "corejs": 3,
+    "debug": true,
+    "modules": false
+  }]],
   "plugins" :[],
   "env"     :{"test":{"plugins": ["@babel/plugin-transform-modules-commonjs"]}}
 }

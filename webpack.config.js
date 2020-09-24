@@ -8,7 +8,8 @@ module.exports = {
 	output: {
 		path:path.resolve('./'),
 		filename: "index.js",
-		libraryTarget: 'umd'
+		libraryTarget: 'umd',
+		globalObject: "this"
 	},
 	resolve: {extensions:[".js"]},
 	plugins: [limit],

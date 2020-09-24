@@ -7,7 +7,6 @@ module.exports = function (api) {
             "useBuiltIns": "usage",
             "corejs": 3,
             "debug": true,
-            "modules": 'auto',
             "targets":"> 0.25%, not dead, ie >= 9, last 5 versions"
         }]
     ];

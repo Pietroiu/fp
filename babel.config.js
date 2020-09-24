@@ -1,4 +1,5 @@
 module.exports = function (api) {
+
     api.cache(false);
 
     const presets = [
@@ -7,15 +8,13 @@ module.exports = function (api) {
             "corejs": 3,
             "debug": true,
             "modules": 'auto',
-            "targets":"> 0.25%, not dead, ie >= 9"
+            "targets":"> 0.25%, not dead, ie >= 9, last 5 versions"
         }]
     ];
 
-    const plugins = [];
-
     return {
         presets,
-        plugins,
         exclude: /node_modules/
     };
+
 }

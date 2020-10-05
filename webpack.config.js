@@ -4,10 +4,10 @@ let limit    	= new webpack.optimize.LimitChunkCountPlugin({maxChunks: 1});
 
 module.exports = {
 	mode: "production",
-	entry: "./entry.js",
+	entry: "./index.js",
 	output: {
 		path:path.resolve('./'),
-		filename: "index.js",
+		filename: "build.js",
 		libraryTarget: 'umd',
 		globalObject: "this"
 	},
@@ -24,5 +24,5 @@ module.exports = {
 		}]
 	},
 	watch:false,
-	devtool: "none"
+	devtool: false
 };

@@ -1,5 +1,5 @@
 {
-  "name": "fp",
+  "name": "@fp/light",
   "version": "1.0.0",
   "description": "Simple functional programing javascript library.",
   "main": "index.js",

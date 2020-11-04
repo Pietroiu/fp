@@ -1,6 +1,6 @@
 {
   "name": "@pietroiu/fp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple functional programing javascript library.",
   "main": "index.js",
   "scripts": {

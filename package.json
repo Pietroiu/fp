@@ -2,7 +2,10 @@
   "name": "@pietroiu/fp",
   "version": "1.1.4",
   "description": "Simple functional programing javascript library.",
-  "keywords": ["javascript","functional programming"],
+  "keywords": [
+    "javascript",
+    "functional programming"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -21,7 +24,7 @@
     "jest": "^26.4.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "core-js": "^3.6.5",
+    "core-js": "^3.7.0",
     "@babel/polyfill": "^7.11.5"
   }
 }

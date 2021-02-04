@@ -2,7 +2,10 @@
   "name": "@pietroiu/fp",
   "version": "1.1.4",
   "description": "Simple functional programing javascript library.",
-  "keywords": ["javascript","functional programming"],
+  "keywords": [
+    "javascript",
+    "functional programming"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -15,8 +18,8 @@
   "author": "Alexandru Pietroiu",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.0",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
     "babel-loader": "^8.1.0",
     "jest": "^26.4.2",
     "webpack": "^4.44.1",
